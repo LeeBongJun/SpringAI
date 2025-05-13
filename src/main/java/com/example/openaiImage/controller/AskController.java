@@ -18,4 +18,9 @@ public class AskController {
         return chatService.getResponse(message);
     }
 
+    @GetMapping("/ask-ai")
+    public String getResponseOptions(String message) {
+        return chatService.getResponseOptions(message);
+    }
+
 }
