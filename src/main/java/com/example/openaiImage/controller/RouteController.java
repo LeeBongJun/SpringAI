@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class RouteController {
 
     @GetMapping("/askview")
-    public String askview(){
+    public String askView() {
         return "ask";
     }
 }
